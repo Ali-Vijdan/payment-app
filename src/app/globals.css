@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 50px;
+  border-radius: 15px;
+  margin: 100px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container h2 {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.container .inputFields {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputFields input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+}
+
+.container button {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  background: rgb(30, 72, 121);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.transactionLoader{
+  font-family: sans-serif;
+  padding: 20px 0px;
+  font-size: 18px;
+}
